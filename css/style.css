@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Hellix":
+  src: url(../fonts/Hellix-Medium.otf);
+}
+
+body {font-family: "Hellix", "Arial", sans-serif;
+font-size: 14px;
+line-height: 16px;}
+
+.visually-hidden {position: absolute;
+clip: rect(0 0 0 0);
+height: 1px;
+width: 1px;
+margin: -1px;}
+
+.header-title {font-size: 24px;
+line-height: 28px;}
+
+.header-info-title {font-size: 58px;
+line-height: 68px;
+margin: 0px 0px 24px 0px;}
+
+.header-info-content {font-size: 32px;
+line-height: 52px;
+margin: 0px 0px 70px 0px;}
+
+.services-item-title {font-size: 28px;
+line-height: 32px;}
+
+.team-item-name {font-size: 28px;
+line-height: 33px;}
+
+.navigation-item-link {
+  text-decoration: none;
+  color: #202020;
+  margin: 0px 40px 0px 0px;}
+
+  .navigation-item-link:hover,
+  .navigation-item-link:focus {
+    color: #B2B2B2;}
+
+  .navigation-item-link:active {
+    color: #000000;}
+
+  .header-button {font-size: 14px;
+    line-height: 16px;
+    border: none;
+    background: #5528FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 2px 15px 4px 14px;}
+  .header-button:hover,
+  .header-button:focus {opacity: 0.7;
+    cursor: pointer;}
+  .header-button:active {opacity: 0.7;
+    color: #000;}
+
+  .header-button-container {margin: auto 0px;}
+
+  .section-header{font-size: 14px;
+                  line-height: 16px;
+                  text-transform: uppercase;
+                  color: #C2C2C2;
+                  margin: 0px 0px 0px 19%;}
+
+  .section-header-conteiner {width: 100%;
+                             position: relative;}
+  .section-header-conteiner::before {
+                             position: absolute;
+                             content: "";
+                             width: 18%;
+                             height: 2px;
+                             background-color: #C2C2C2;
+                             top: 8px;}
+
+  .section-header-conteiner::after {
+                               position: absolute;
+                               content: "";
+                               width: 74%;
+                               height: 2px;
+                               background-color: #C2C2C2;
+                               top: 8px;
+                               right: 0;}
+
+  .services .section-header-conteiner,
+   .ourteam .section-header-conteiner {margin: 0 0 101px 0;}
+  .clients .section-header-conteiner {margin: 0 0 61px 0;}
+
+
+
+  .button {font-size: 24px;
+    line-height: 28px;
+    border: none;
+    background: #5528FF;
+    border-radius: 10px;
+    padding: 13px 50px 13px 52px;
+    color: #FFFFFF;
+    margin: 0px 0px 100px 0px;}
+   .button:hover,
+   .button:focus {opacity: 0.7;
+    cursor: pointer;}
+   .button:active {opacity: 0.7;
+    color: #000;}
+
+    .header-logo-img {height: 58px;
+     width: 58px;
+     margin: 0px 25px 0px 0px;}
+
+     .footer-logo-img {height: 60px;
+      width: 60px;
+      margin: 0 887px 0 0;}
+
+    .phone-img {height: 60px;
+     width: 34px;}
+    .union-img {height: 60px;
+     width: 80px;}
+     .layers-img {height: 61px;
+      width: 80px;}
+    .test-img {height: 60px;
+     width: 40px;}
+
+     .lightspeed-img {width: 170px;
+     height: 39px;}
+     .trvl-img {width: 61px;
+     height: 53px;}
+     .spider-strategies-img {width: 154px;
+     height: 47px;}
+     .tripadvisor {width: 182px;
+     height: 29px;}
+     .shutterfly {width: 139px;
+     height: 35px;}
+     .decos {width: 149px;
+     height: 22px;}
+     .tiqets {width: 102px;
+     height: 39px;}
+     .hotelchamp {width: 173px;
+     height: 31px;}
+     .flitsmeister {width: 176px;
+     height: 39px;}
+     .sap {width: 84px;
+     height: 43px;}
+     .redkix{width: 145px;
+     height: 40px;}
+     .nos {width: 92px;
+     height: 52px;}
+
+     .team-img {width: 100px;
+     height: 100px;
+       margin: 0 35px 0 0;}
+
+
+header {width: 1181px;
+        margin: 0 auto;
+        padding: 53px;}
+
+.header-up-block {display: flex;
+                  margin: 0px 0px 124px;}
+.header-title {margin: auto 635px auto 0px;}
+.navigation-list {display: flex;
+                  list-style: none;
+                  margin: 0px;
+                  padding: 0px;}
+.header-navigation {margin: auto 0px;}
+
+.services-list {width: 1115px;
+                margin: 0 auto 20px auto;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;}
+
+.services-item {width: 50%;
+                display: flex;
+                margin: 0 0 80px 0;}
+
+.services-item-img {min-width: 80px;
+                   margin: 0 44px 0 0;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;}
+
+.services-item-title {margin: 0 0 16px 0;}
+
+.services-item-content {margin: 0;
+                        width: 311px;
+                        color: #B2B2B2;}
+
+
+.clients-list {width: 1081px;
+               margin: 0 auto 82px auto;
+               padding: 0;
+               list-style: none;
+               display: flex;
+               flex-wrap: wrap;}
+
+.clients-item {width: 25%;
+               height: 98px;
+              display: flex;
+              align-items: center;
+              justify-content: center;}
+
+.clients .section-header-conteiner {margin: 0 0 32px 0;}
+
+.team-list {width: 1073px;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;}
+
+.team-item {width: 33%;
+            display: flex;
+            margin: 0 0 60px 0;}
+
+
+
+.team-item-name {margin: 0 0 10px 0;
+                 color: #202020;}
+
+.team-item-profession {margin: 0;}
+
+footer {background-color: #F7F7F7;}
+.footer-conteiner {width: 1163px;
+                   margin: 0 auto;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   padding: 20px;}
+
+.footer-list {margin: 0 auto;
+              padding: 0;
+              list-style: none;
+              display: flex;}
+.footer-item {width: 25%;
+              margin: 0 40px 0 0;
+              align-items: center;
+              justify-content: center;}
